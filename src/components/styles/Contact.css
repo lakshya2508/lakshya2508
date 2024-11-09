@@ -1,0 +1,51 @@
+/* Contact.css */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .contact-info {
+    width: 100%;
+  }
+  
+  .contact-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .contact-label {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .contact-link {
+    color: #0073b1; /* LinkedIn blue */
+    text-decoration: none;
+  }
+  
+  .contact-link:hover {
+    color: #005582;
+  }
+  
+  .contact-link:active {
+    color: #003a4e;
+  }
+  
